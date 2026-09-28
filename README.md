@@ -25,7 +25,7 @@ evaluation_data.json   # 18 test cases: 10 good answers, 8 bad (off-topic, wrong
 
 ```bash
 pip install -r requirements.txt
-cp .env.example .env        # then add your Anthropic API key
+cp .env.example .env        # then add your  API key
 ```
 
 ## Run
