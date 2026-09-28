@@ -1,0 +1,110 @@
+[
+  {
+    "question": "What is Python?",
+    "expected_answer": "Python is a high-level, general-purpose programming language known for its readable syntax.",
+    "answer": "Python is a popular programming language that is easy to read and used for web development, data science, and automation.",
+    "label": "pass"
+  },
+  {
+    "question": "What is PostgreSQL?",
+    "expected_answer": "PostgreSQL is an open-source relational database management system that uses SQL.",
+    "answer": "PostgreSQL is a free, open-source relational database that stores data in tables and is queried with SQL.",
+    "label": "pass"
+  },
+  {
+    "question": "What is an API?",
+    "expected_answer": "An API (Application Programming Interface) is a set of rules that lets one software program communicate with another.",
+    "answer": "An API is an interface that allows different software applications to talk to each other using defined requests and responses.",
+    "label": "pass"
+  },
+  {
+    "question": "What does HTTP status code 404 mean?",
+    "expected_answer": "404 means Not Found: the server could not find the requested resource.",
+    "answer": "A 404 error means the page or resource you asked for could not be found on the server.",
+    "label": "pass"
+  },
+  {
+    "question": "What is Git?",
+    "expected_answer": "Git is a distributed version control system used to track changes in source code.",
+    "answer": "Git is a version control tool that tracks changes to code and lets many developers collaborate on a project.",
+    "label": "pass"
+  },
+  {
+    "question": "What is a primary key in a database?",
+    "expected_answer": "A primary key is a column (or set of columns) that uniquely identifies each row in a table.",
+    "answer": "A primary key is a field that uniquely identifies each record in a table, so no two rows share the same value.",
+    "label": "pass"
+  },
+  {
+    "question": "What is Docker?",
+    "expected_answer": "Docker is a platform that packages applications and their dependencies into containers so they run consistently anywhere.",
+    "answer": "Docker lets you bundle an app with everything it needs into a container, so it runs the same on any machine.",
+    "label": "pass"
+  },
+  {
+    "question": "What is JSON?",
+    "expected_answer": "JSON (JavaScript Object Notation) is a lightweight text format for storing and exchanging data.",
+    "answer": "JSON is a lightweight text-based data format used to exchange data between systems.",
+    "label": "pass"
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "expected_answer": "The capital of Canada is Ottawa.",
+    "answer": "The capital of Canada is Ottawa, located in Ontario.",
+    "label": "pass"
+  },
+  {
+    "question": "What does SQL stand for?",
+    "expected_answer": "SQL stands for Structured Query Language.",
+    "answer": "SQL stands for Structured Query Language.",
+    "label": "pass"
+  },
+  {
+    "question": "What is Python?",
+    "expected_answer": "Python is a high-level, general-purpose programming language known for its readable syntax.",
+    "answer": "I really like pizza, and the weather has been nice this week.",
+    "label": "fail"
+  },
+  {
+    "question": "What is PostgreSQL?",
+    "expected_answer": "PostgreSQL is an open-source relational database management system that uses SQL.",
+    "answer": "PostgreSQL is a NoSQL document database created by Google for storing JSON files.",
+    "label": "fail"
+  },
+  {
+    "question": "What does HTTP status code 404 mean?",
+    "expected_answer": "404 means Not Found: the server could not find the requested resource.",
+    "answer": "A 404 error means the server crashed because of an internal problem.",
+    "label": "fail"
+  },
+  {
+    "question": "What is Git?",
+    "expected_answer": "Git is a distributed version control system used to track changes in source code.",
+    "answer": "Git is a cloud hosting website owned by Microsoft where people upload their code.",
+    "label": "fail"
+  },
+  {
+    "question": "What is a primary key in a database?",
+    "expected_answer": "A primary key is a column (or set of columns) that uniquely identifies each row in a table.",
+    "answer": "A primary key is an encryption key introduced by Oracle in 1985 that locks the entire database with a password.",
+    "label": "fail"
+  },
+  {
+    "question": "What is Docker?",
+    "expected_answer": "Docker is a platform that packages applications and their dependencies into containers so they run consistently anywhere.",
+    "answer": "Shipping containers are large metal boxes that carry goods across the ocean on cargo ships.",
+    "label": "fail"
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "expected_answer": "The capital of Canada is Ottawa.",
+    "answer": "The capital of Canada is Toronto, its largest city.",
+    "label": "fail"
+  },
+  {
+    "question": "What does SQL stand for?",
+    "expected_answer": "SQL stands for Structured Query Language.",
+    "answer": "SQL stands for Simple Question Language.",
+    "label": "fail"
+  }
+]
